@@ -4,22 +4,21 @@
 }
 
 body {
-  background-image: url("./Dark\ Dog\ Animated.gif");
   background-color: #042434;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-clip:content-box;
-  margin-left: 0px;
-  margin-bottom: 0px;
+  background-position: center;
 }
 
 nav {
+  z-index: 1;
   overflow: hidden;
   background-color: #042434;
-  position: fixed;
-  top: 0%;
+  position: absolute;
+  top: 0px;
   width: 100%;
+  position: fixed;
+  border-bottom: 0.5px solid #c0b5da;
 }
 
 nav a {
@@ -36,12 +35,115 @@ nav a:hover {
   color: #5d84cd;
 }
 
+article {
+  z-index: 0;
+  background: rgba(60, 212, 236, .65);
+  margin: 70px 450px;
+  border: double black;
+}
+
+article h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 60px;
+}
+
+#leash {
+  float: left;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  width: 350px;
+  height: 280px;
+  margin-left: 100px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#laisse {
+  text-align: left;
+  font-size: 22px;
+  margin-left: 600px;
+  padding-top: 50px;
+  line-height: 2;
+  width: 300px;
+}
+
+#aggressive {
+  float: right;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  width: 350px;
+  height: 280px;
+  margin: 90px 100px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#agressif {
+  text-align: left;
+  font-size: 22px;
+  margin-left: 120px;
+  padding-top: 180px;
+  line-height: 2;
+  width: 350px;
+}
+
+#destroy {
+  float: left;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  width: 350px;
+  height: 280px;
+  margin-left: 100px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#detruit {
+  text-align: left;
+  font-size: 22px;
+  margin-left: 600px;
+  padding-top: 50px;
+  line-height: 2;
+  width: 300px;
+}
+
+article h2 {
+  text-align: center;
+  font-size: 30px;
+  padding: 60px 20px;
+  width: 800px;
+  margin: auto;
+}
+
+#super {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 0px;
+  padding-bottom: 60px;
+  line-height: 1;
+  width: 500px;
+  margin: auto;
+}
+
+#contact {
+  text-align: left;
+  font-size: 20px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  line-height: 1.2;
+  width: 375px;
+  margin: auto;
+}
+
+
 footer {
   overflow: hidden;
   background:#042434;
   position: fixed;
   bottom: 0%;
   width: 100%;
+  border-top: 0.5px solid #c0b5da;
 }
 
 footer a {
